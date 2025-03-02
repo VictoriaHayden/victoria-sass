@@ -1,0 +1,39 @@
+.nav {
+    width: 15%;
+    min-width: 140px;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    color: $primary-color;
+  }
+.nav ul {
+    list-style-type: none; 
+    padding-left: 0; 
+  }
+  
+  body.shows-page ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+  }
+  
+
+.nav a {
+    color: $primary-color; 
+    text-decoration: none; 
+  }
+  
+  .nav a:visited {
+    color: $primary-color; 
+    text-decoration: none; 
+  }
+  
+  .nav a:hover {
+    color: $primary-color; 
+    text-decoration: underline; 
+  }
+  
+  .nav a:focus {
+    color: $primary-color; 
+    text-decoration: underline;
+  }
